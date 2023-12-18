@@ -1,0 +1,22 @@
+{ 
+    "Publicas":{
+        "MdP":{
+            "Nombre": "Mareografo Mar del Plata",
+            "Posicion": [-38.00059534717251, -57.538450484917455],            
+            "Sensor": "SBE38"
+            },
+
+        "BNMdP":{
+            "Nombre": "Base Naval Mar del Plata",
+            "Posicion": [-38.0356186586923, -57.53108029025293],
+            "Sensor": "SBE38"
+            }
+        },
+    "Admins":{
+        "LAB":{
+            "Nombre": "Pruebas de Laboratorio",
+            "Posicion": [-38.03183990954904, -57.531952927833075],
+            "Sensor": "SBE38"
+            }
+        }
+}

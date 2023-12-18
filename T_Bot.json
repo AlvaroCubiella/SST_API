@@ -1,0 +1,7 @@
+{
+    "FTP":{
+        "Servidor":"ftp.inidep.edu.ar",
+        "Usuario":"oceanografia",
+        "Pass":"oceanus"
+    }
+}
