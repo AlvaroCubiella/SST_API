@@ -77,7 +77,7 @@ def actualizar_ftp_publico():
         }
 
         estaciones_pub[i] = estacion
-        estaciones_pub[i]['date_update'] = f"{fechahora.day}/{fechahora.month}/{fechahora.year} {fechahora.hour}:{fechahora.minute}"
+        estaciones_pub[i]['date_update'] = f"{fechahora.day:02d}/{fechahora.month:02d}/{fechahora.year} {fechahora.hour:02d}:{fechahora.minute:02d}"
         estaciones_pub[i]['info'] = scan
 
     # Cerrar la conexión FTP
@@ -139,7 +139,7 @@ def actualizar_ftp_admins():
             }
 
             estaciones[i] = estacion
-            estaciones[i]['date_update'] = f"{fechahora.day}/{fechahora.month}/{fechahora.year} {fechahora.hour}:{fechahora.minute}"
+            estaciones[i]['date_update'] = f"{fechahora.day:02d}/{fechahora.month:02d}/{fechahora.year} {fechahora.hour:02d}:{fechahora.minute:02d}"
             estaciones[i]['info'] = scan
     # Cerrar la conexión FTP
     ftp.close()
